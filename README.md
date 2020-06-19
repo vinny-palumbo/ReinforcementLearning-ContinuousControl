@@ -40,6 +40,20 @@ The barrier for solving the second version of the environment is slightly differ
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below (only tested on Windows)
+
+1. Create (and activate) a new environment with Python 3.6.
+
+2. Clone the repository (if you haven't already), and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+cd python
+pip install .
+```
+
+3. [Install PyTorch](https://pytorch.org/)
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
